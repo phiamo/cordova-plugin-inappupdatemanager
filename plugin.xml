@@ -7,7 +7,7 @@
         <clobbers target="cordova.plugins.InAppUpdateManager" />
     </js-module>
     <platform name="android">
-        <framework src="com.google.android.play:core:1.6.1" />
+        <framework src="com.google.android.play:core:1.10.3" />
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="InAppUpdateManager">
                 <param name="android-package" value="InAppUpdateManager.InAppUpdateManager" />
